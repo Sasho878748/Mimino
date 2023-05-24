@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script type="module" crossorigin src="/blended1-proj-minimo/assets/swipe-9ff274c7.js"></script>
+    <link rel="stylesheet" href="/blended1-proj-minimo/assets/swipe-49ba5630.css">
+  </head>
+  <body>
+    <header>
+      <!-- by Игорь Олейник -->
+      <!-- Task 1 - Header (one for all pages) -->
+
+<div class="header-relative container">
+  <div class="position-header">
+    <a class="animate__delay-2s animate__flip animate__animated header__site-name" href="./index.html">MIMIHO </a>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item ml-decstop">
+          <a class="nav__link" href="./restaurant.html">Ресторан</a>
+        </li>
+        <li class="nav__item mob-mr">
+          <a
+            class="nav__link-tel"
+            href="tel:+380955559533"
+            aria-label="Телефон"
+          >
+            <svg class="icon-header" width="24" height="24">
+              <use href="/blended1-proj-minimo/assets/icon-headerfooter-771fcebc.svg#icon-phone"></use>
+            </svg>
+            <div class="reviews-mobile">095 555 95 33</div>
+          </a>
+        </li>
+        <li class="nav__item ml-decstop">
+          <a class="nav__link" href="./hotel.html">Готель</a>
+        </li>
+        <li class="nav__item">
+          <a
+            class="nav__link-tel"
+            href="tel:+380668491089"
+            aria-label="Телефон"
+          >
+            <svg class="icon-header" width="24" height="24">
+              <use href="/blended1-proj-minimo/assets/icon-headerfooter-771fcebc.svg#icon-phone"></use>
+            </svg>
+            <div class="reviews-mobile">066 849 10 89</div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <ul class="social-header__list reviews-mobile-tablet">
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link"
+          ><svg class="icons-header" width="24" style="height: 24px">
+            <use href="/blended1-proj-minimo/assets/icon-headerfooter-771fcebc.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link"
+          ><svg class="icons-header" width="24" style="height: 24px">
+            <use href="/blended1-proj-minimo/assets/icon-headerfooter-771fcebc.svg#icon-facebook"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social__item">
+        <a href="#" target="_blank" class="social__link"
+          ><svg class="icons-header" width="24" style="height: 24px">
+            <use href="/blended1-proj-minimo/assets/icon-headerfooter-771fcebc.svg#icon-telegram"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    </header>
+    <main>
+      <!-- by Olexandr Shovkaliuk -->
+        <!-- Task 12 - Hero hotel -->
+<section class="hero-hotel container">
+  <div class="hero-box">
+    <h1 class="animate__flip animate__animated title-hotel">MIMIHO</h1>
+    <h2 class="sub-title-hotel">Готель</h2>
+      <address class="hero-icon-nav">
+      <a
+        href="https://goo.gl/maps/8BwuumtGxX6HWBwf6"
+        target="_blank"
+        rel="noreferrer noopener nofollow"
+        class="hotel-map-link"
+        >Україна, м.Полтава, <br />
+        вул.Маршала Бірюзова, 15</a
+      >
+    </address>
+    <ul class="hero-hotel-buttons">
+      <li>
+        <button type="button" class="hero-btn js-open-modal" data-modal="1">Забронювати номер</button>
+      </li>
+      <li>
+        <button type="button" class="hero-btn js-open-modal" data-modal="2">Переглянути ціни</button>
+      </li>
+    </ul>
+    <ul class="hero-soc-list">
+      <li class="hero-soc-items">
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          class="hero-soc-link"
+        >
+          <svg width="24" height="24" class="hero-soc-icons">
+            <use
+              href="../img/task_12/icon-hero-hotel.svg#icon-akar-icons_instagram-fill"
+            ></use>
+          </svg>
+        </a>
+      </li>
+      <li class="hero-soc-items">
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          class="hero-soc-link"
+        >
+          <svg width="24" height="24" class="hero-soc-icons">
+            <use
+              href="../img/task_12/icon-hero-hotel.svg#icon-jam_facebook-square"
+            ></use>
+          </svg>
+        </a>
+      </li>
+      <li class="hero-soc-items">
+        <a
+          href="https://www.t.me/"
+          target="_blank"
+          rel="noreferrer noopener nofollow"
+          class="hero-soc-link"
+        >
+          <svg width="24" height="24" class="hero-soc-icons">
+            <use
+              href="../img/task_12/icon-hero-hotel.svg#icon-la_telegram-plane"
+            ></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
+
+        <!-- by Html Анастасія Дердяй and by Css Oleksandr Kovalenko -->
+        <!-- Task 13 - The first hotel section "1 room luxe for 2 adult" -->
+<section class="hotel-lux container">
+  <div class="container-lux-hotel">
+    <p class="hotel-lux-pretitle-description">Amet minim mollit non</p>
+    <p class="animate__delay-2s animate__flip animate__animated hotel-lux-pretitle">Mimiho</p>
+    <h2 class="hotel-lux-title">ДВОМІСНИЙ НОМЕР люкс</h2>
+    <p class="hotel-lux-title-description">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+    <picture>
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-d5c3890d.jpg 1x, /blended1-proj-minimo/assets/2-adult-2x-a2ac5376.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-tab-949d81b3.jpg 1x, /blended1-proj-minimo/assets/2-adult-tab-2x-a2060dbb.jpg 2x"
+        media="(min-width: 1024px)"
+      />
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-mob-3c07816e.jpg 1x, /blended1-proj-minimo/assets/2-adult-mob-2x-17e98482.jpg 2x"
+        media="(min-width: 320px)"
+      />
+      <img
+        class="hotel-lux-room-img"
+        src="/blended1-proj-minimo/assets/2-adult-d5c3890d.jpg"
+        alt="1 room for 2 adult"
+        width="460"
+        height="574"
+      />
+    </picture>
+    <div class="hotel-lux-img-btn-box">
+      <ul class="hotel-lux-list-img">
+        <li class="hotel-lux-item-img">
+          <picture>
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-9eb0d870.jpg 1x, /blended1-proj-minimo/assets/arrangement-2x-eb28ca79.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-mob-tab-e9a3cda9.jpg 1x, /blended1-proj-minimo/assets/arrangement-mob-tab-2x-814f096b.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-mob-tab-e9a3cda9.jpg 1x, /blended1-proj-minimo/assets/arrangement-mob-tab-2x-814f096b.jpg 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              class="hotel-lux-slider-img"
+              src="/blended1-proj-minimo/assets/arrangement-9eb0d870.jpg"
+              alt="bathroom"
+              width="254"
+              height="254"
+            />
+          </picture>
+        </li>
+        <li class="hotel-lux-item-img">
+          <picture>
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-4ce7547f.jpg 1x, /blended1-proj-minimo/assets/cup-tea-2x-d4b2b566.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-mob-tab-72f773d7.jpg 1x, /blended1-proj-minimo/assets/cup-tea-mob-tab-2x-64f62a35.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-mob-tab-72f773d7.jpg 1x, /blended1-proj-minimo/assets/cup-tea-mob-tab-2x-64f62a35.jpg 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              class="hotel-lux-slider-img"
+              src="/blended1-proj-minimo/assets/cup-tea-4ce7547f.jpg"
+              alt="cup tea"
+              width="254"
+              height="254"
+            />
+          </picture>
+        </li>
+      </ul>
+      <ul class="hotel-lux-list-slider">
+        <li class="hotel-lux-item-slider">
+          <button type="button" class="hotel-lux-left-btn">
+            <svg width="32" height="32">
+              <use href="/blended1-proj-minimo/assets/left-rigt-svg-9489d98c.svg#icon-left"></use>
+            </svg>
+          </button>
+        </li>
+        <li class="hotel-lux-item-slider">
+          <button type="button" class="hotel-lux-right-btn">
+            <svg width="32" height="32">
+              <use href="/blended1-proj-minimo/assets/left-rigt-svg-9489d98c.svg#icon-right"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+      <ul class="hotel-lux-list-btn">
+        <li class="hotel-lux-item-btn">
+          <a class="hotel-lux-link" href="./room.html">Детальніше</a>
+        </li>
+        <li class="hotel-lux-item-btn">
+          <button type="button" class="hotel-lux-btn js-open-modal" data-modal="2">
+            Переглянути ціни
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        <!-- by Html Анастасія Дердяй and by Css Oleksandr Kovalenko -->
+        <!-- Task 14 - The second hotel section "1 room for 3 adult  -->
+<section class="container hotel-three">
+  <div class="container-three-hotel">
+    <p class="hotel-three-pretitle-description">Amet minim mollit non</p>
+    <p class="animate__flip animate__animated hotel-three-pretitle">Mimiho</p>
+    <h2 class="hotel-three-title">ТРЬОХМІСНИЙ НОМЕР</h2>
+    <p class="hotel-three-title-description">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+    <picture>
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-d5c3890d.jpg 1x, /blended1-proj-minimo/assets/2-adult-2x-a2ac5376.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-tab-949d81b3.jpg 1x, /blended1-proj-minimo/assets/2-adult-tab-2x-a2060dbb.jpg 2x"
+        media="(min-width: 1024px)"
+      />
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-mob-3c07816e.jpg 1x, /blended1-proj-minimo/assets/2-adult-mob-2x-17e98482.jpg 2x"
+        media="(min-width: 320px)"
+      />
+      <img
+        class="hotel-three-room-img"
+        src="/blended1-proj-minimo/assets/2-adult-d5c3890d.jpg"
+        alt="1 room for 2 adult"
+        width="460"
+        height="574"
+      />
+    </picture>
+    <div class="hotel-three-img-btn-box">
+      <ul class="hotel-three-list-img">
+        <li class="hotel-three-item-img">
+          <picture>
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-9eb0d870.jpg 1x, /blended1-proj-minimo/assets/arrangement-2x-eb28ca79.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-mob-tab-e9a3cda9.jpg 1x, /blended1-proj-minimo/assets/arrangement-mob-tab-2x-814f096b.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-mob-tab-e9a3cda9.jpg 1x, /blended1-proj-minimo/assets/arrangement-mob-tab-2x-814f096b.jpg 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              class="hotel-three-slider-img"
+              src="/blended1-proj-minimo/assets/arrangement-9eb0d870.jpg"
+              alt="bathroom"
+              width="254"
+              height="254"
+            />
+          </picture>
+        </li>
+        <li class="hotel-three-item-img">
+          <picture>
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-4ce7547f.jpg 1x, /blended1-proj-minimo/assets/cup-tea-2x-d4b2b566.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-mob-tab-72f773d7.jpg 1x, /blended1-proj-minimo/assets/cup-tea-mob-tab-2x-64f62a35.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-mob-tab-72f773d7.jpg 1x, /blended1-proj-minimo/assets/cup-tea-mob-tab-2x-64f62a35.jpg 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              class="hotel-three-slider-img"
+              src="/blended1-proj-minimo/assets/cup-tea-4ce7547f.jpg"
+              alt="cup tea"
+              width="254"
+              height="254"
+            />
+          </picture>
+        </li>
+      </ul>
+      <ul class="hotel-three-list-slider">
+        <li class="hotel-three-item-slider">
+          <button type="button" class="hotel-three-left-btn">
+            <svg width="32" height="32">
+              <use href="/blended1-proj-minimo/assets/left-rigt-svg-9489d98c.svg#icon-left"></use>
+            </svg>
+          </button>
+        </li>
+        <li class="hotel-three-item-slider">
+          <button type="button" class="hotel-three-right-btn">
+            <svg width="32" height="32">
+              <use href="/blended1-proj-minimo/assets/left-rigt-svg-9489d98c.svg#icon-right"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+      <ul class="two-adult-list-btn hotel-three-list-btn">
+        <li class="two-adult-item-btn">
+          <a class="two-adult-link" href="./room.html">Детальніше</a>
+        </li>
+        <li class="two-adult-item-btn">
+          <button
+            class="two-adult-btn js-open-modal"
+            type="button"
+            data-modal="2"
+          >
+            Переглянути ціни
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+        <!-- by Oleksandr Kovalenko -->
+        <!-- Task 15 - The third hotel section "1 room for 2 adult" -->
+<section class="one-room-for-two-adult container">
+  <div class="container-task-fiveteen">
+    <p class="two-adult-text-non">Amet minim mollit non</p>
+    <p class="animate__flip animate__animated two-adult-logo">Mimiho</p>
+    <h2 class="two-adult-title">ДВОМІСНИЙ НОМЕР</h2>
+    <p class="two-adult-text">
+      Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+      Velit officia consequat duis enim velit mollit. Exercitation veniam
+      consequat sunt nostrud amet.
+    </p>
+    <picture>
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-d5c3890d.jpg 1x, /blended1-proj-minimo/assets/2-adult-2x-a2ac5376.jpg 2x"
+        media="(min-width: 1280px)"
+      />
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-tab-949d81b3.jpg 1x, /blended1-proj-minimo/assets/2-adult-tab-2x-a2060dbb.jpg 2x"
+        media="(min-width: 1024px)"
+      />
+      <source
+        srcset="/blended1-proj-minimo/assets/2-adult-mob-3c07816e.jpg 1x, /blended1-proj-minimo/assets/2-adult-mob-2x-17e98482.jpg 2x"
+        media="(min-width: 320px)"
+      />
+      <img
+        class="two-adult-room-img"
+        src="/blended1-proj-minimo/assets/2-adult-d5c3890d.jpg"
+        alt="1 room for 2 adult"
+        width="460"
+        height="574"
+      />
+    </picture>
+    <div class="two-adult-img-btn-box">
+      <ul class="two-adult-list-img">
+        <li class="two-adult-item-img">
+          <picture>
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-9eb0d870.jpg 1x, /blended1-proj-minimo/assets/arrangement-2x-eb28ca79.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-mob-tab-e9a3cda9.jpg 1x, /blended1-proj-minimo/assets/arrangement-mob-tab-2x-814f096b.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/arrangement-mob-tab-e9a3cda9.jpg 1x, /blended1-proj-minimo/assets/arrangement-mob-tab-2x-814f096b.jpg 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              class="two-adult-slider-img"
+              src="/blended1-proj-minimo/assets/arrangement-9eb0d870.jpg"
+              alt="bathroom"
+              width="254"
+              height="254"
+            />
+          </picture>
+        </li>
+        <li class="two-adult-item-img">
+          <picture>
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-4ce7547f.jpg 1x, /blended1-proj-minimo/assets/cup-tea-2x-d4b2b566.jpg 2x"
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-mob-tab-72f773d7.jpg 1x, /blended1-proj-minimo/assets/cup-tea-mob-tab-2x-64f62a35.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="/blended1-proj-minimo/assets/cup-tea-mob-tab-72f773d7.jpg 1x, /blended1-proj-minimo/assets/cup-tea-mob-tab-2x-64f62a35.jpg 2x"
+              media="(min-width: 320px)"
+            />
+            <img
+              class="two-adult-slider-img"
+              src="/blended1-proj-minimo/assets/cup-tea-4ce7547f.jpg"
+              alt="cup tea"
+              width="254"
+              height="254"
+            />
+          </picture>
+        </li>
+      </ul>
+      <ul class="two-adult-list-slider">
+        <li class="two-adult-item-slider">
+          <button type="button" class="two-adult-left-btn">
+            <svg width="32" height="32">
+              <use href="/blended1-proj-minimo/assets/left-rigt-svg-9489d98c.svg#icon-left"></use>
+            </svg>
+          </button>
+        </li>
+        <li class="two-adult-item-slider">
+          <button type="button" class="two-adult-right-btn">
+            <svg width="32" height="32">
+              <use href="/blended1-proj-minimo/assets/left-rigt-svg-9489d98c.svg#icon-right"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+      <ul class="two-adult-list-btn">
+        <li class="two-adult-item-btn">
+          <a class="two-adult-link" href="./room.html">Детальніше</a>
+        </li>
+        <li class="two-adult-item-btn">
+          <button class="two-adult-btn js-open-modal" type="button" data-modal="2">Переглянути ціни</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+    </main>
+    <footer>
+      <!-- by Игорь Олейник -->
+      <!-- Task 8 - The sixth home section "Footer" (one for all pages) -->
+<section class="footer">
+  <div class="footer-wrap container">
+    <h2 class="visually-hidden">MIMIHO</h2>
+    <div class="footer-logo-wrap">
+      <a class="animate__flip animate__animated footer-logo link" href="./index.html">MIMIHO </a>
+    </div>
+    <div class="footer-navigation">
+      <ul class="footer-navigation-list">
+        <li class="footer-navigation-item">
+          <a class="footer-navigation-link link" href="./index.html">Головна</a>
+        </li>
+        <li class="footer-navigation-item">
+          <a class="footer-navigation-link link" href="./restaurant.html"
+            >Ресторан</a
+          >
+        </li>
+        <li class="footer-navigation-item">
+          <a class="footer-navigation-link link" href="./hotel.html">Готель</a>
+        </li>
+      </ul>
+  
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="footer-social-link link"
+          >
+            <span class="footer-social-name">Instagram</span>
+            <svg width="24" style="height: 24px">
+              <use
+                href="/blended1-proj-minimo/assets/icon-headerfooter-771fcebc.svg#icon-instagram"
+                class="footer-social-icon"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="footer-social-link link"
+          >
+            <span class="footer-social-name">Facebook</span>
+            <svg width="24" style="height: 24px">
+              <use
+                href="/blended1-proj-minimo/assets/icon-headerfooter-771fcebc.svg#icon-facebook"
+                class="footer-social-icon"
+              ></use>
+            </svg>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a
+            href="https://www.t.me/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="footer-social-link link"
+          >
+            <span class="footer-social-name">Telegram</span>
+            <svg width="24" style="height: 24px">
+              <use
+                href="/blended1-proj-minimo/assets/icon-headerfooter-771fcebc.svg#icon-telegram"
+                class="footer-social-icon"
+              ></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div >
+</section>
+
+
+
+
+<!-- 
+<div class="container">
+  <div class="footer-position">
+    <a class="footer__site-name" href="./index.html">MIMIHO </a>
+
+    <div class="position-social">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a class="footer__link" href="./index.html">Головна</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="./restaurant.html">Ресторан</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="./hotel.html">Готель</a>
+        </li>
+      </ul>
+
+      <ul class="social-footer__list">
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link">
+            <span class="reviews-mobile">Telegram</span>
+            <svg class="icon-footer telegram" width="24" style="height: 24px">
+              <use href="./public/icon-headerfooter.svg#icon-telegram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link">
+            <span class="reviews-mobile">Facebook</span>
+            <svg class="icon-footer facebook" width="24" style="height: 24px">
+              <use href="./public/icon-headerfooter.svg#icon-facebook"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social__item">
+          <a href="#" target="_blank" class="social__link">
+            <span class="reviews-mobile">Instagram</span>
+            <svg class="icon-footer instagram" width="24" style="height: 24px">
+              <use href="./public/icon-headerfooter.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+ -->
+
+    </footer>
+    <!-- Modal -->
+    <!-- by Petro Svist  connected by Yurii Ilkevych  -->
+    <!-- Book Room Modal window -->
+<div class="overlay js-overlay-modal"></div>
+<div class="r-modal modal" data-modal="1">
+  <button type="button" class="modal-close-btn js-modal-close">
+    <svg class="modal-close-icon" width="24" height="24">
+      <use href="/blended1-proj-minimo/assets/img-8ee89653.svg#icon-modal-close-btn"></use>
+    </svg>
+  </button>
+  <h2 class="modal-name">ЗАБРОНЮВАТИ НОМЕР</h2>
+  <form class="r-modal-form">
+    <div class="r-modal-form-thumb">
+      <label class="modal-list">
+        <input
+          class="modal-input"
+          type="text"
+          name="user-name"
+          placeholder="Ваше ім’я"
+          pattern="^[А-Яа-яЁё\s]+$"
+          required
+        />
+        <span class="modal-label-name">На кого забронювати номер?</span>
+      </label>
+      <label class="modal-list">
+        <input
+          class="modal-input"
+          type="tel"
+          name="user-tel"
+          placeholder="+38 (___) ___-__-__"
+          pattern="^+380\d{3}\d{2}\d{2}\d{2}$"
+          required
+        />
+        <span class="modal-label-name">Номер телефону</span>
+      </label>
+      <div class="modal-field r-list">
+        <label class="modal-list">
+          <select class="modal-input" name="user-room" required>
+            <option value="">Двомісний номер</option>
+            <option value="" selected>Двомісний люкс</option>
+            <option value="">Трьохмісний номер</option>
+          </select>
+          <span class="modal-label-name">Категорія номеру</span>
+        </label>
+        <div class="modal-field-thumb">Двомісний люкс</div>
+      </div>
+      <div class="modal-field">
+        <label class="modal-list">
+          <select class="modal-input" name="date-start" required>
+            <option value="" selected>Сьогодні</option>
+            <option value="">Завтра</option>
+          </select>
+          <span class="modal-label-name">Дата заїзду</span>
+        </label>
+        <div class="modal-field-thumb">Сьогодні</div>
+      </div>
+      <div class="modal-field">
+        <label class="modal-list">
+          <select class="modal-input" name="date-finish" required>
+            <option value="" selected>Сьогодні</option>
+            <option value="">Завтра</option>
+          </select>
+          <span class="modal-label-name">Дата виїзду</span>
+        </label>
+        <div class="modal-field-thumb">Сьогодні</div>
+      </div>
+    </div>
+    <button type="submit" class="modal-send-btn">ОФОРМИТИ БРОНЮВАННЯ</button>
+  </form>
+</div>
+
+    <!-- by Petro Svist  connected by Yurii Ilkevych  -->
+    <!-- Book Table Modal window -->
+<div class="t-modal modal" data-modal="3">
+  <button type="button" class="modal-close-btn js-modal-close">
+    <svg class="modal-close-icon" width="24" height="24">
+      <use href="/blended1-proj-minimo/assets/img-8ee89653.svg#icon-modal-close-btn"></use>
+    </svg>
+  </button>
+  <h2 class="modal-name">ЗАБРОНЮВАТИ СТОЛИК</h2>
+  <form class="t-modal-form">
+    <div class="t-modal-form-thumb">
+      <label class="modal-list">
+        <input
+          class="modal-input"
+          type="text"
+          name="user-name"
+          placeholder="Ваше ім’я"
+          pattern="^[А-Яа-яЁё\s]+$"
+          required
+        />
+        <span class="modal-label-name">На кого забронювати столик?</span>
+      </label>
+      <label class="modal-list">
+        <select class="modal-input" name="user-number" required>
+          <option value="">1</option>
+          <option value="" selected>2</option>
+          <option value="">3</option>
+          <option value="">4</option>
+          <option value="">5</option>
+          <option value="">6</option>
+          <option value="">7</option>
+        </select>
+        <span class="modal-label-name">Столик на яку кількість осіб?</span>
+        <span class="modal-field-thumb">2</span>
+      </label>
+      <label class="modal-list">
+        <input
+          class="modal-input"
+          type="tel"
+          name="user-tel"
+          placeholder="+38 (___) ___-__-__"
+          pattern="^+380\d{3}\d{2}\d{2}\d{2}$"
+          required
+        />
+        <span class="modal-label-name">Номер телефону</span>
+      </label>
+      <label class="modal-list">
+        <select class="modal-input" name="user-date" required>
+          <option value="" selected>Сьогодні</option>
+          <option value="">Завтра</option>
+        </select>
+        <span class="modal-label-name">На яку дату бронювати?</span>
+        <span class="modal-field-thumb">Сьогодні</span>
+      </label>
+    </div>
+    <button type="submit" class="modal-send-btn">ОФОРМИТИ БРОНЮВАННЯ</button>
+  </form>
+</div>
+
+    <!-- by Petro Svist  connected by Yurii Ilkevych  -->
+    <!-- Room Price Modal window -->
+<div class="p-modal modal" data-modal="2">
+  <button type="button" class="modal-close-btn js-modal-close">
+    <svg class="modal-close-icon" width="24" height="24">
+      <use href="/blended1-proj-minimo/assets/img-8ee89653.svg#icon-modal-close-btn"></use>
+    </svg>
+  </button>
+  <h2 class="modal-name">ЦІНИ НА НОМЕР</h2>
+  <h3 class="p-modal-room">Двомісний люкс</h3>
+  <p class="p-modal-category">Категорія номеру</p>
+  <form class="p-modal-form">
+    <div class="p-modal-form-thumb">
+      <label class="modal-list">
+        <select class="modal-input" name="user-date" required>
+          <option value="" selected>1</option>
+          <option value="" >2</option>
+          <option value="" >3</option>
+          <option value="" >4</option>
+          <option value="" >5</option>
+        </select>
+        <span class="modal-label-name">Кількість ночей</span>
+        <span class="modal-field-thumb">1</span>
+      </label>
+      <label class="modal-list">
+        <input
+          class="modal-input"
+          type="text"
+          name="user-price"
+          placeholder="1000"
+          pattern="^[ 0-9]+$"
+          required
+        />
+        <span class="modal-label-name">грн</span>
+      </label>
+    </div>
+    <button type="submit" class="modal-send-btn">ЗАБРОНЮВАТИ НОМЕР</button>
+  </form>
+</div>
+
+    <!-- by Yurii Ilkevych -->
+    
+  </body>
+</html>
